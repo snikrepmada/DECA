@@ -1,0 +1,22 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="c024a4eb42d6ecc87c6a"/>
+  </project>
+  <file_info>
+    <file device="10M50DAF484C7G" path="DECA_Gsensor.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="adc_qsys:adc_qsys" name="adc_qsys">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME adc_qsys HAS_SOPCINFO 1 GENERATION_ID 1421911089"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+    <sld_info hpath="dual_boot:dual_arrow" name="dual_arrow">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME dual_boot HAS_SOPCINFO 1 GENERATION_ID 1426679710"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

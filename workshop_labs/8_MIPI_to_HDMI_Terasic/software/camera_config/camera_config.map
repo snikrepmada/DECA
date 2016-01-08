@@ -1,0 +1,1071 @@
+Archive member included to satisfy reference by file (symbol)
+
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+                              obj/default/I2C_core.o (__divsi3)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+                              obj/default/camera_config.o (printf)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                              obj/default/I2C_core.o (puts)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o) (strlen)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o) (___vfprintf_internal_r)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o) (__sfvwrite_small_dev)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o) (_impure_ptr)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o) (_write_r)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (errno)
+../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+                              ../camera_config_bsp//obj/HAL/src/crt0.o (alt_load)
+../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+                              ../camera_config_bsp//obj/HAL/src/crt0.o (alt_main)
+../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+                              obj/default/I2C_core.o (usleep)
+../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o) (write)
+../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_main.o) (alt_irq_init)
+../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_avalon_jtag_uart_read_fd)
+../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                              ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_read)
+../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                              ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o) (altera_avalon_jtag_uart_write)
+../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_avalon_timer_sc_init)
+../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o) (alt_busy_sleep)
+../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_main.o) (close)
+../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_load.o) (alt_dcache_flush_all)
+../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_list)
+../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o) (alt_dev_llist_insert)
+../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_main.o) (_do_ctors)
+../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_main.o) (_do_dtors)
+../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_write.o) (alt_errno)
+../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_load.o) (alt_icache_flush_all)
+../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+                              ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o) (alt_ic_isr_register)
+../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_iic.o) (alt_iic_isr_register)
+../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq_entry)
+../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o) (alt_irq)
+../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_iic.o) (alt_irq_active)
+../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_close.o) (alt_release_fd)
+../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+                              ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o) (_alt_tick_rate)
+../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o) (altera_nios2_gen2_irq_init)
+../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o) (alt_exception)
+../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o) (alt_icache_flush)
+../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o) (alt_instruction_exception_entry)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_main.o) (atexit)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+                              ../camera_config_bsp/\libhal_bsp.a(alt_main.o) (exit)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o) (__register_exitproc)
+c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o) (__call_exitprocs)
+../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+                              c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+alt_irq             0x100             ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+errno               0x4               c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+reset            0x0000000000020000 0x0000000000000020
+onchip_memory2   0x0000000000020020 0x0000000000011150
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ../camera_config_bsp//obj/HAL/src/crt0.o
+LOAD obj/default/I2C_core.o
+LOAD obj/default/camera_config.o
+LOAD obj/default/main.o
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libstdc++.a
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a
+START GROUP
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a
+LOAD ../camera_config_bsp/\libhal_bsp.a
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libm.a
+END GROUP
+LOAD c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a
+                0x0000000000020000                __alt_mem_onchip_memory2 = 0x20000
+
+.entry          0x0000000000020000       0x20
+ *(.entry)
+ .entry         0x0000000000020000       0x20 ../camera_config_bsp//obj/HAL/src/crt0.o
+                0x0000000000020000                __reset
+
+.exceptions     0x0000000000020020      0x220
+                0x0000000000020020                PROVIDE (__ram_exceptions_start, ABSOLUTE (.))
+                0x0000000000020020                . = ALIGN (0x20)
+ *(.irq)
+ *(.exceptions.entry.label)
+ .exceptions.entry.label
+                0x0000000000020020        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+                0x0000000000020020                alt_irq_entry
+ .exceptions.entry.label
+                0x0000000000020020        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+                0x0000000000020020                alt_exception
+ *(.exceptions.entry.user)
+ *(.exceptions.entry.ecc_fatal)
+ *(.exceptions.entry)
+ .exceptions.entry
+                0x0000000000020020       0x54 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.irqtest.user)
+ *(.exceptions.irqtest)
+ .exceptions.irqtest
+                0x0000000000020074       0x10 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqhandler.user)
+ *(.exceptions.irqhandler)
+ .exceptions.irqhandler
+                0x0000000000020084        0x4 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.irqreturn.user)
+ *(.exceptions.irqreturn)
+ .exceptions.irqreturn
+                0x0000000000020088        0x4 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.label)
+ .exceptions.notirq.label
+                0x000000000002008c        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ *(.exceptions.notirq.user)
+ *(.exceptions.notirq)
+ .exceptions.notirq
+                0x000000000002008c        0x8 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.soft.user)
+ *(.exceptions.soft)
+ *(.exceptions.unknown.user)
+ *(.exceptions.unknown)
+ .exceptions.unknown
+                0x0000000000020094       0x14 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.label)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .exceptions.exit.label
+                0x00000000000200a8        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions.exit.user)
+ *(.exceptions.exit)
+ .exceptions.exit
+                0x00000000000200a8       0x54 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ *(.exceptions)
+ .exceptions    0x00000000000200fc       0xd0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x00000000000200fc                alt_irq_handler
+ .exceptions    0x00000000000201cc       0x74 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x00000000000201cc                alt_instruction_exception_entry
+                0x0000000000020240                PROVIDE (__ram_exceptions_end, ABSOLUTE (.))
+                0x0000000000020020                PROVIDE (__flash_exceptions_start, LOADADDR (.exceptions))
+
+.text           0x0000000000020240     0x4dcc
+                0x0000000000020240                PROVIDE (stext, ABSOLUTE (.))
+ *(.interp)
+ *(.hash)
+ *(.dynsym)
+ *(.dynstr)
+ *(.gnu.version)
+ *(.gnu.version_d)
+ *(.gnu.version_r)
+ *(.rel.init)
+ *(.rela.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rela.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rela.ctors)
+ *(.rel.dtors)
+ *(.rela.dtors)
+ *(.rel.got)
+ *(.rela.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.rel.dyn)
+ *(.init)
+ *(.plt)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000020240       0x4c ../camera_config_bsp//obj/HAL/src/crt0.o
+                0x0000000000020240                _start
+ .text          0x000000000002028c      0xd6c obj/default/I2C_core.o
+                0x000000000002028c                Write32_Data
+                0x00000000000202e4                Read32_Data
+                0x000000000002033c                oc_i2c_init
+                0x0000000000020394                oc_i2c_init_ex
+                0x00000000000204e0                oc_i2c_uninit
+                0x0000000000020574                ACK_single_check
+                0x0000000000020600                ACK_check
+                0x0000000000020660                OC_I2C_Write
+                0x0000000000020860                ACK_judge_for_read
+                0x00000000000208c4                OC_I2C_Read
+                0x0000000000020a90                OC_I2C_Read_Continue
+                0x0000000000020bc8                OC_I2CL_Write
+                0x0000000000020da8                OC_I2CL_Read
+ .text          0x0000000000020ff8     0x1d20 obj/default/camera_config.o
+                0x0000000000020ff8                SWAP16
+                0x0000000000021044                AR0833_write_cmos_sensor
+                0x00000000000210a4                AR0833_write_cmos_sensor_8
+                0x0000000000021104                BYD_CONFIG_1024x768_RAW8
+ .text          0x0000000000022d18      0x4f4 obj/default/main.o
+                0x0000000000022d18                DDR3_Check
+                0x0000000000022d78                MIPI_Init
+                0x00000000000230fc                main
+ .text          0x000000000002320c      0x12c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+                0x0000000000023278                __divsi3
+                0x00000000000232cc                __modsi3
+                0x0000000000023328                __udivsi3
+                0x0000000000023330                __umodsi3
+ .text          0x0000000000023338       0x88 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+                0x0000000000023338                _printf_r
+                0x0000000000023374                printf
+ .text          0x00000000000233c0       0x94 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                0x00000000000233c0                _puts_r
+                0x0000000000023440                puts
+ .text          0x0000000000023454       0x1c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                0x0000000000023454                strlen
+ .text          0x0000000000023470      0x5d4 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+                0x00000000000234dc                ___vfprintf_internal_r
+                0x0000000000023a20                __vfprintf_internal
+ .text          0x0000000000023a44       0xac c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                0x0000000000023a44                __sfvwrite_small_dev
+ .text          0x0000000000023af0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .text          0x0000000000023af0       0x58 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                0x0000000000023af0                _write_r
+ .text          0x0000000000023b48        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .text          0x0000000000023b48       0xe4 ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+                0x0000000000023bac                alt_load
+ .text          0x0000000000023c2c       0x5c ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000023c2c                alt_main
+ .text          0x0000000000023c88       0x30 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+                0x0000000000023c88                usleep
+ .text          0x0000000000023cb8      0x148 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+                0x0000000000023d08                write
+ .text          0x0000000000023e00       0xb8 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+                0x0000000000023e38                alt_irq_init
+                0x0000000000023e6c                alt_sys_init
+ .text          0x0000000000023eb8       0xc0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                0x0000000000023eb8                altera_avalon_jtag_uart_read_fd
+                0x0000000000023f18                altera_avalon_jtag_uart_write_fd
+ .text          0x0000000000023f78       0xe4 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                0x0000000000023f78                altera_avalon_jtag_uart_read
+ .text          0x000000000002405c       0x94 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                0x000000000002405c                altera_avalon_jtag_uart_write
+ .text          0x00000000000240f0       0xfc ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                0x0000000000024164                alt_avalon_timer_sc_init
+ .text          0x00000000000241ec      0x158 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x00000000000241ec                alt_busy_sleep
+ .text          0x0000000000024344      0x120 ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+                0x0000000000024394                close
+ .text          0x0000000000024464       0x44 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                0x0000000000024464                alt_dcache_flush_all
+ .text          0x00000000000244a8       0x2c ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .text          0x00000000000244d4       0xf4 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                0x0000000000024524                alt_dev_llist_insert
+ .text          0x00000000000245c8       0x5c ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                0x00000000000245c8                _do_ctors
+ .text          0x0000000000024624       0x5c ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                0x0000000000024624                _do_dtors
+ .text          0x0000000000024680        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .text          0x0000000000024680       0x30 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                0x0000000000024680                alt_icache_flush_all
+ .text          0x00000000000246b0      0x1e0 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+                0x00000000000246b0                alt_ic_isr_register
+                0x0000000000024700                alt_ic_irq_enable
+                0x00000000000247a0                alt_ic_irq_disable
+                0x0000000000024844                alt_ic_irq_enabled
+ .text          0x0000000000024890       0xf0 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                0x0000000000024890                alt_iic_isr_register
+ .text          0x0000000000024980        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .text          0x0000000000024980        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .text          0x0000000000024980        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .text          0x0000000000024980       0x60 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+                0x0000000000024980                alt_release_fd
+ .text          0x00000000000249e0      0x19c ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00000000000249e0                alt_alarm_stop
+                0x0000000000024a78                alt_tick
+ .text          0x0000000000024b7c       0x20 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                0x0000000000024b7c                altera_nios2_gen2_irq_init
+ .text          0x0000000000024b9c        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .text          0x0000000000024b9c       0x8c ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                0x0000000000024b9c                alt_icache_flush
+ .text          0x0000000000024c28       0x9c ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000024c28                alt_exception_cause_generated_bad_addr
+ .text          0x0000000000024cc4       0x14 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+                0x0000000000024cc4                atexit
+ .text          0x0000000000024cd8       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+                0x0000000000024cd8                exit
+ .text          0x0000000000024cf8      0x144 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+                0x0000000000024cf8                __register_exitproc
+ .text          0x0000000000024e3c      0x19c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+                0x0000000000024e3c                __call_exitprocs
+ .text          0x0000000000024fd8       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+                0x0000000000024fd8                _exit
+ *(.gnu.warning.*)
+ *(.fini)
+                0x000000000002500c                PROVIDE (__etext, ABSOLUTE (.))
+                0x000000000002500c                PROVIDE (_etext, ABSOLUTE (.))
+                0x000000000002500c                PROVIDE (etext, ABSOLUTE (.))
+ *(.eh_frame_hdr)
+                0x000000000002500c                . = ALIGN (0x4)
+                0x000000000002500c                PROVIDE (__preinit_array_start, ABSOLUTE (.))
+ *(.preinit_array)
+                0x000000000002500c                PROVIDE (__preinit_array_end, ABSOLUTE (.))
+                0x000000000002500c                PROVIDE (__init_array_start, ABSOLUTE (.))
+ *(.init_array)
+                0x000000000002500c                PROVIDE (__init_array_end, ABSOLUTE (.))
+                0x000000000002500c                PROVIDE (__fini_array_start, ABSOLUTE (.))
+ *(.fini_array)
+                0x000000000002500c                PROVIDE (__fini_array_end, ABSOLUTE (.))
+ *(.eh_frame)
+ *(.gcc_except_table .gcc_except_table.*)
+ *(.dynamic)
+                0x000000000002500c                PROVIDE (__CTOR_LIST__, ABSOLUTE (.))
+ *(.ctors)
+ *(SORT(.ctors.*))
+                0x000000000002500c                PROVIDE (__CTOR_END__, ABSOLUTE (.))
+                0x000000000002500c                PROVIDE (__DTOR_LIST__, ABSOLUTE (.))
+ *(.dtors)
+ *(SORT(.dtors.*))
+                0x000000000002500c                PROVIDE (__DTOR_END__, ABSOLUTE (.))
+ *(.jcr)
+                0x000000000002500c                . = ALIGN (0x4)
+
+.rodata         0x000000000002500c      0x4f4
+                0x000000000002500c                PROVIDE (__ram_rodata_start, ABSOLUTE (.))
+                0x000000000002500c                . = ALIGN (0x4)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000002500c      0x1d4 obj/default/I2C_core.o
+ .rodata        0x00000000000251e0       0x54 obj/default/camera_config.o
+ .rodata        0x0000000000025234      0x2ac obj/default/main.o
+ .rodata.str1.4
+                0x00000000000254e0        0x4 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .rodata        0x00000000000254e4       0x10 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .rodata        0x00000000000254f4        0xc ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ *(.rodata1)
+                0x0000000000025500                . = ALIGN (0x4)
+                0x0000000000025500                PROVIDE (__ram_rodata_end, ABSOLUTE (.))
+                0x000000000002500c                PROVIDE (__flash_rodata_start, LOADADDR (.rodata))
+
+.rwdata         0x0000000000025500      0x2e0 load address 0x00000000000257e0
+                0x0000000000025500                PROVIDE (__ram_rwdata_start, ABSOLUTE (.))
+                0x0000000000025500                . = ALIGN (0x4)
+ *(.got.plt)
+ *(.got)
+ *(.data1)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000025500        0x0 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .data          0x0000000000025500        0x0 obj/default/I2C_core.o
+ .data          0x0000000000025500        0x0 obj/default/camera_config.o
+ .data          0x0000000000025500        0x0 obj/default/main.o
+ .data          0x0000000000025500        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .data          0x0000000000025500        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .data          0x0000000000025500        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .data          0x0000000000025500        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .data          0x0000000000025500        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .data          0x0000000000025500        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .data          0x0000000000025500       0xe0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .data          0x00000000000255e0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .data          0x00000000000255e0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .data          0x00000000000255e0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .data          0x00000000000255e0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .data          0x00000000000255e0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .data          0x00000000000255e0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .data          0x00000000000255e0       0x2c ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .data          0x000000000002560c        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .data          0x000000000002560c      0x1a8 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+                0x000000000002560c                alt_dev_null
+                0x0000000000025634                alt_fd_list
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .data          0x00000000000257b4        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .data          0x00000000000257b4        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .data          0x00000000000257b4        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .data          0x00000000000257b4        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .data          0x00000000000257b4        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+                0x000000000002d7b4                _gp = ABSOLUTE ((. + 0x8000))
+                0x000000000002d7b4                PROVIDE (gp, _gp)
+ *(.rwdata .rwdata.*)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x00000000000257b4        0x8 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                0x00000000000257b4                _global_impure_ptr
+                0x00000000000257b8                _impure_ptr
+ .sdata         0x00000000000257bc       0x14 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+                0x00000000000257bc                alt_fs_list
+                0x00000000000257c4                alt_dev_list
+                0x00000000000257cc                alt_max_fd
+ .sdata         0x00000000000257d0        0x4 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+                0x00000000000257d0                alt_errno
+ .sdata         0x00000000000257d4        0x4 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x00000000000257d4                alt_priority_mask
+ .sdata         0x00000000000257d8        0x8 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+                0x00000000000257d8                alt_alarm_list
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+                0x00000000000257e0                . = ALIGN (0x4)
+                0x00000000000257e0                _edata = ABSOLUTE (.)
+                0x00000000000257e0                PROVIDE (edata, ABSOLUTE (.))
+                0x00000000000257e0                PROVIDE (__ram_rwdata_end, ABSOLUTE (.))
+                0x00000000000257e0                PROVIDE (__flash_rwdata_start, LOADADDR (.rwdata))
+
+.bss            0x0000000000025ac0      0x120
+                0x0000000000025ac0                __bss_start = ABSOLUTE (.)
+                0x0000000000025ac0                PROVIDE (__sbss_start, ABSOLUTE (.))
+                0x0000000000025ac0                PROVIDE (___sbss_start, ABSOLUTE (.))
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000000025ac0        0x4 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                0x0000000000025ac0                errno
+ .sbss          0x0000000000025ac4        0xc ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+                0x0000000000025ac4                alt_argc
+                0x0000000000025ac8                alt_argv
+                0x0000000000025acc                alt_envp
+ .sbss          0x0000000000025ad0        0x4 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                0x0000000000025ad0                alt_irq_active
+ .sbss          0x0000000000025ad4        0x8 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+                0x0000000000025ad4                _alt_tick_rate
+                0x0000000000025ad8                _alt_nticks
+ .sbss          0x0000000000025adc        0x4 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                0x0000000000025adc                alt_instruction_exception_handler
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+ *(.scommon)
+                0x0000000000025ae0                PROVIDE (__sbss_end, ABSOLUTE (.))
+                0x0000000000025ae0                PROVIDE (___sbss_end, ABSOLUTE (.))
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .bss           0x0000000000025ae0        0x0 obj/default/I2C_core.o
+ .bss           0x0000000000025ae0        0x0 obj/default/camera_config.o
+ .bss           0x0000000000025ae0        0x0 obj/default/main.o
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .bss           0x0000000000025ae0        0x0 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000000025ae0        0x0 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+ *(COMMON)
+ COMMON         0x0000000000025ae0      0x100 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                0x0000000000025ae0                alt_irq
+                0x0000000000025be0                . = ALIGN (0x4)
+                0x0000000000025be0                __bss_end = ABSOLUTE (.)
+
+.onchip_memory2
+                0x0000000000025be0        0x0
+                0x0000000000025be0                PROVIDE (_alt_partition_onchip_memory2_start, ABSOLUTE (.))
+ *(.onchip_memory2 .onchip_memory2. onchip_memory2.*)
+                0x0000000000025be0                . = ALIGN (0x4)
+                0x0000000000025be0                PROVIDE (_alt_partition_onchip_memory2_end, ABSOLUTE (.))
+                0x0000000000025be0                _end = ABSOLUTE (.)
+                0x0000000000025be0                end = ABSOLUTE (.)
+                0x0000000000025be0                __alt_stack_base = ABSOLUTE (.)
+                0x0000000000025be0                PROVIDE (_alt_partition_onchip_memory2_load_addr, LOADADDR (.onchip_memory2))
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x23
+ *(.comment)
+ .comment       0x0000000000000000       0x23 obj/default/I2C_core.o
+                                         0x24 (size before relaxing)
+ .comment       0x0000000000000000       0x24 obj/default/camera_config.o
+ .comment       0x0000000000000000       0x24 obj/default/main.o
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .comment       0x0000000000000000       0x24 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .comment       0x0000000000000000       0x24 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x5f8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x28 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .debug_aranges
+                0x0000000000000028       0x20 obj/default/I2C_core.o
+ .debug_aranges
+                0x0000000000000048       0x20 obj/default/camera_config.o
+ .debug_aranges
+                0x0000000000000068       0x20 obj/default/main.o
+ .debug_aranges
+                0x0000000000000088       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .debug_aranges
+                0x00000000000000a8       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .debug_aranges
+                0x00000000000000c8       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_aranges
+                0x00000000000000e8       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_aranges
+                0x0000000000000108       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_aranges
+                0x0000000000000128       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_aranges
+                0x0000000000000148       0x18 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_aranges
+                0x0000000000000160       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_aranges
+                0x0000000000000180       0x18 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_aranges
+                0x0000000000000198       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_aranges
+                0x00000000000001b8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_aranges
+                0x00000000000001d8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_aranges
+                0x00000000000001f8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_aranges
+                0x0000000000000218       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_aranges
+                0x0000000000000238       0x20 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_aranges
+                0x0000000000000258       0x20 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_aranges
+                0x0000000000000278       0x20 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_aranges
+                0x0000000000000298       0x20 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_aranges
+                0x00000000000002b8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_aranges
+                0x00000000000002d8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_aranges
+                0x00000000000002f8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_aranges
+                0x0000000000000318       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_aranges
+                0x0000000000000338       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_aranges
+                0x0000000000000358       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_aranges
+                0x0000000000000378       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_aranges
+                0x0000000000000398       0x18 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_aranges
+                0x00000000000003b0       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_aranges
+                0x00000000000003d0       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_aranges
+                0x00000000000003f0       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_aranges
+                0x0000000000000410       0x30 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_aranges
+                0x0000000000000440       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_aranges
+                0x0000000000000460       0x18 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_aranges
+                0x0000000000000478       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_aranges
+                0x0000000000000498       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_aranges
+                0x00000000000004b8       0x20 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_aranges
+                0x00000000000004d8       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_aranges
+                0x0000000000000510       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_aranges
+                0x0000000000000530       0x28 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_aranges
+                0x0000000000000558       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .debug_aranges
+                0x0000000000000578       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .debug_aranges
+                0x0000000000000598       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .debug_aranges
+                0x00000000000005b8       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_aranges
+                0x00000000000005d8       0x20 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0x7b68
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000       0x7c ../camera_config_bsp//obj/HAL/src/crt0.o
+ .debug_info    0x000000000000007c      0x686 obj/default/I2C_core.o
+ .debug_info    0x0000000000000702      0x1f6 obj/default/camera_config.o
+ .debug_info    0x00000000000008f8      0x235 obj/default/main.o
+ .debug_info    0x0000000000000b2d      0x234 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .debug_info    0x0000000000000d61      0x6c7 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .debug_info    0x0000000000001428      0x685 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_info    0x0000000000001aad       0xc2 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_info    0x0000000000001b6f      0xb49 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_info    0x00000000000026b8      0x656 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_info    0x0000000000002d0e      0x5a7 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_info    0x00000000000032b5      0x639 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_info    0x00000000000038ee       0x83 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_info    0x0000000000003971      0x13e ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_info    0x0000000000003aaf      0x12a ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_info    0x0000000000003bd9       0xa9 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_info    0x0000000000003c82      0x4b0 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_info    0x0000000000004132      0x3d8 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_info    0x000000000000450a      0x3a0 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_info    0x00000000000048aa      0x1af ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_info    0x0000000000004a59      0x18e ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_info    0x0000000000004be7      0x21f ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_info    0x0000000000004e06       0xd0 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_info    0x0000000000004ed6      0x31a ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_info    0x00000000000051f0       0x9e ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_info    0x000000000000528e      0x495 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_info    0x0000000000005723      0x1a2 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_info    0x00000000000058c5       0x83 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_info    0x0000000000005948       0x83 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_info    0x00000000000059cb       0x9f ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_info    0x0000000000005a6a       0x8b ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_info    0x0000000000005af5      0x349 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_info    0x0000000000005e3e      0x1e8 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_info    0x0000000000006026       0x85 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_info    0x00000000000060ab      0x180 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_info    0x000000000000622b       0x88 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_info    0x00000000000062b3      0x2b0 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_info    0x0000000000006563      0x292 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_info    0x00000000000067f5       0x8b ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_info    0x0000000000006880       0x8b ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_info    0x000000000000690b       0xd5 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_info    0x00000000000069e0      0x1d8 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_info    0x0000000000006bb8      0x10a c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .debug_info    0x0000000000006cc2       0xed c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .debug_info    0x0000000000006daf      0x661 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .debug_info    0x0000000000007410      0x673 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_info    0x0000000000007a83       0xe5 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_abbrev   0x0000000000000000     0x2be3
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x12 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .debug_abbrev  0x0000000000000012      0x138 obj/default/I2C_core.o
+ .debug_abbrev  0x000000000000014a       0xef obj/default/camera_config.o
+ .debug_abbrev  0x0000000000000239      0x11f obj/default/main.o
+ .debug_abbrev  0x0000000000000358       0xd9 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .debug_abbrev  0x0000000000000431      0x1fe c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .debug_abbrev  0x000000000000062f      0x1ed c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_abbrev  0x000000000000081c       0x7f c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_abbrev  0x000000000000089b      0x2a1 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_abbrev  0x0000000000000b3c      0x1c3 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_abbrev  0x0000000000000cff      0x14a c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_abbrev  0x0000000000000e49      0x1a8 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_abbrev  0x0000000000000ff1       0x37 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_abbrev  0x0000000000001028       0x9f ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_abbrev  0x00000000000010c7       0xba ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_abbrev  0x0000000000001181       0x60 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_abbrev  0x00000000000011e1      0x133 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_abbrev  0x0000000000001314      0x157 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_abbrev  0x000000000000146b       0xf7 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_abbrev  0x0000000000001562       0xd7 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_abbrev  0x0000000000001639       0xd5 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_abbrev  0x000000000000170e      0x155 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_abbrev  0x0000000000001863       0x7e ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_abbrev  0x00000000000018e1      0x11f ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_abbrev  0x0000000000001a00       0x5a ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_abbrev  0x0000000000001a5a       0xd9 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_abbrev  0x0000000000001b33      0x114 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_abbrev  0x0000000000001c47       0x79 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_abbrev  0x0000000000001cc0       0x79 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_abbrev  0x0000000000001d39       0x5a ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_abbrev  0x0000000000001d93       0x42 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_abbrev  0x0000000000001dd5      0x163 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_abbrev  0x0000000000001f38      0x169 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_abbrev  0x00000000000020a1       0x12 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_abbrev  0x00000000000020b3      0x122 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_abbrev  0x00000000000021d5       0x40 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_abbrev  0x0000000000002215       0xde ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_abbrev  0x00000000000022f3      0x15a ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_abbrev  0x000000000000244d       0x42 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_abbrev  0x000000000000248f       0x12 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_abbrev  0x00000000000024a1       0x8c ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_abbrev  0x000000000000252d       0xd1 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_abbrev  0x00000000000025fe       0xb8 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .debug_abbrev  0x00000000000026b6       0xa9 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .debug_abbrev  0x000000000000275f      0x1f5 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .debug_abbrev  0x0000000000002954      0x1e9 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_abbrev  0x0000000000002b3d       0xa6 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_line     0x0000000000000000     0x3c7f
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0x72 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .debug_line    0x0000000000000072      0x2ec obj/default/I2C_core.o
+ .debug_line    0x000000000000035e      0xc4c obj/default/camera_config.o
+ .debug_line    0x0000000000000faa      0x167 obj/default/main.o
+ .debug_line    0x0000000000001111       0xc4 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .debug_line    0x00000000000011d5      0x1fa c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .debug_line    0x00000000000013cf      0x1fc c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_line    0x00000000000015cb      0x15b c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_line    0x0000000000001726      0x34b c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_line    0x0000000000001a71      0x1f2 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_line    0x0000000000001c63      0x155 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+ .debug_line    0x0000000000001db8      0x1ed c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_line    0x0000000000001fa5       0x5d c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+ .debug_line    0x0000000000002002       0x8d ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_line    0x000000000000208f       0xa0 ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_line    0x000000000000212f       0xa5 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_line    0x00000000000021d4      0x1cc ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_line    0x00000000000023a0      0x142 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_line    0x00000000000024e2      0x112 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_line    0x00000000000025f4       0xff ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_line    0x00000000000026f3       0xf4 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_line    0x00000000000027e7       0xfd ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_line    0x00000000000028e4       0xa0 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_line    0x0000000000002984      0x15e ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_line    0x0000000000002ae2       0x61 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_line    0x0000000000002b43       0xf0 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_line    0x0000000000002c33       0xd0 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_line    0x0000000000002d03       0x59 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_line    0x0000000000002d5c       0x59 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_line    0x0000000000002db5       0x51 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+ .debug_line    0x0000000000002e06       0x50 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_line    0x0000000000002e56       0xef ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_line    0x0000000000002f45       0xdb ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_line    0x0000000000003020       0x6b ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_line    0x000000000000308b       0xaa ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_line    0x0000000000003135       0x50 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+ .debug_line    0x0000000000003185       0xae ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_line    0x0000000000003233       0xfe ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_line    0x0000000000003331       0x51 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_line    0x0000000000003382       0xb3 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_line    0x0000000000003435       0x81 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_line    0x00000000000034b6       0xba ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_line    0x0000000000003570       0xe7 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .debug_line    0x0000000000003657      0x157 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .debug_line    0x00000000000037ae      0x211 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .debug_line    0x00000000000039bf      0x24f c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_line    0x0000000000003c0e       0x71 ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_frame    0x0000000000000000      0xdc8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000      0x210 obj/default/I2C_core.o
+ .debug_frame   0x0000000000000210       0xac obj/default/camera_config.o
+ .debug_frame   0x00000000000002bc       0x7c obj/default/main.o
+ .debug_frame   0x0000000000000338       0x8c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .debug_frame   0x00000000000003c4       0x48 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .debug_frame   0x000000000000040c       0x48 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_frame   0x0000000000000454       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_frame   0x0000000000000474       0x8c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_frame   0x0000000000000500       0x40 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_frame   0x0000000000000540       0x38 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_frame   0x0000000000000578       0x5c ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+ .debug_frame   0x00000000000005d4       0x2c ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+ .debug_frame   0x0000000000000600       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+ .debug_frame   0x0000000000000638       0x60 ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+ .debug_frame   0x0000000000000698       0x88 ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+ .debug_frame   0x0000000000000720       0x60 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+ .debug_frame   0x0000000000000780       0x34 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+ .debug_frame   0x00000000000007b4       0x34 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+ .debug_frame   0x00000000000007e8       0x60 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+ .debug_frame   0x0000000000000848       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+ .debug_frame   0x0000000000000880       0x60 ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+ .debug_frame   0x00000000000008e0       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+ .debug_frame   0x0000000000000914       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+ .debug_frame   0x0000000000000948       0x60 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+ .debug_frame   0x00000000000009a8       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+ .debug_frame   0x00000000000009e0       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+ .debug_frame   0x0000000000000a18       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+ .debug_frame   0x0000000000000a50       0xa4 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+ .debug_frame   0x0000000000000af4       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+ .debug_frame   0x0000000000000b2c       0x38 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_frame   0x0000000000000b64       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+ .debug_frame   0x0000000000000b98       0x5c ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+ .debug_frame   0x0000000000000bf4       0x34 ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+ .debug_frame   0x0000000000000c28       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+ .debug_frame   0x0000000000000c5c       0x5c ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+ .debug_frame   0x0000000000000cb8       0x20 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000cd8       0x28 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000d00       0x48 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .debug_frame   0x0000000000000d48       0x54 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000d9c       0x2c ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+
+.debug_str      0x0000000000000000     0x1e91
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x307 obj/default/I2C_core.o
+                                        0x351 (size before relaxing)
+ .debug_str     0x0000000000000307       0x7a obj/default/camera_config.o
+                                        0x215 (size before relaxing)
+ .debug_str     0x0000000000000381       0x33 obj/default/main.o
+                                        0x1fb (size before relaxing)
+ .debug_str     0x00000000000003b4      0x16b c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+                                        0x1b6 (size before relaxing)
+ .debug_str     0x000000000000051f      0x3d7 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+                                        0x4b3 (size before relaxing)
+ .debug_str     0x00000000000008f6       0x61 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+                                        0x477 (size before relaxing)
+ .debug_str     0x0000000000000957       0xc5 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+                                        0x18f (size before relaxing)
+ .debug_str     0x0000000000000a1c      0x1c5 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+                                        0x641 (size before relaxing)
+ .debug_str     0x0000000000000be1       0x6a c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+                                        0x48e (size before relaxing)
+ .debug_str     0x0000000000000c4b       0xe2 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-impure.o)
+                                        0x468 (size before relaxing)
+ .debug_str     0x0000000000000d2d       0x3a c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+                                        0x462 (size before relaxing)
+ .debug_str     0x0000000000000d67       0x3d c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-int_errno.o)
+                                        0x182 (size before relaxing)
+ .debug_str     0x0000000000000da4      0x131 ../camera_config_bsp/\libhal_bsp.a(alt_load.o)
+                                        0x200 (size before relaxing)
+ .debug_str     0x0000000000000ed5       0x44 ../camera_config_bsp/\libhal_bsp.a(alt_main.o)
+                                        0x18b (size before relaxing)
+ .debug_str     0x0000000000000f19       0x27 ../camera_config_bsp/\libhal_bsp.a(alt_usleep.o)
+                                        0x136 (size before relaxing)
+ .debug_str     0x0000000000000f40      0x15f ../camera_config_bsp/\libhal_bsp.a(alt_write.o)
+                                        0x2e6 (size before relaxing)
+ .debug_str     0x000000000000109f      0x11b ../camera_config_bsp/\libhal_bsp.a(alt_sys_init.o)
+                                        0x2f8 (size before relaxing)
+ .debug_str     0x00000000000011ba       0x77 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_fd.o)
+                                        0x2c3 (size before relaxing)
+ .debug_str     0x0000000000001231       0x48 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_read.o)
+                                        0x20d (size before relaxing)
+ .debug_str     0x0000000000001279       0x4a ../camera_config_bsp/\libhal_bsp.a(altera_avalon_jtag_uart_write.o)
+                                        0x203 (size before relaxing)
+ .debug_str     0x00000000000012c3       0xb6 ../camera_config_bsp/\libhal_bsp.a(altera_avalon_timer_sc.o)
+                                        0x239 (size before relaxing)
+ .debug_str     0x0000000000001379       0x42 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                                        0x159 (size before relaxing)
+ .debug_str     0x00000000000013bb       0x1b ../camera_config_bsp/\libhal_bsp.a(alt_close.o)
+                                        0x1f9 (size before relaxing)
+ .debug_str     0x00000000000013d6       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_dcache_flush_all.o)
+                                        0x143 (size before relaxing)
+ .debug_str     0x000000000000140a       0x49 ../camera_config_bsp/\libhal_bsp.a(alt_dev.o)
+                                        0x2f3 (size before relaxing)
+ .debug_str     0x0000000000001453       0x45 ../camera_config_bsp/\libhal_bsp.a(alt_dev_llist_insert.o)
+                                        0x1ba (size before relaxing)
+ .debug_str     0x0000000000001498       0x48 ../camera_config_bsp/\libhal_bsp.a(alt_do_ctors.o)
+                                         0xca (size before relaxing)
+ .debug_str     0x00000000000014e0       0x4c ../camera_config_bsp/\libhal_bsp.a(alt_do_dtors.o)
+                                         0xc9 (size before relaxing)
+ .debug_str     0x000000000000152c       0x14 ../camera_config_bsp/\libhal_bsp.a(alt_errno.o)
+                                        0x133 (size before relaxing)
+ .debug_str     0x0000000000001540       0x34 ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush_all.o)
+                                        0x143 (size before relaxing)
+ .debug_str     0x0000000000001574       0xc4 ../camera_config_bsp/\libhal_bsp.a(alt_iic.o)
+                                        0x22c (size before relaxing)
+ .debug_str     0x0000000000001638       0x4c ../camera_config_bsp/\libhal_bsp.a(alt_iic_isr_register.o)
+                                        0x1d6 (size before relaxing)
+ .debug_str     0x0000000000001684       0x3a ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+                                        0x185 (size before relaxing)
+ .debug_str     0x00000000000016be       0x17 ../camera_config_bsp/\libhal_bsp.a(alt_irq_vars.o)
+                                        0x134 (size before relaxing)
+ .debug_str     0x00000000000016d5       0x28 ../camera_config_bsp/\libhal_bsp.a(alt_release_fd.o)
+                                        0x1cd (size before relaxing)
+ .debug_str     0x00000000000016fd       0x78 ../camera_config_bsp/\libhal_bsp.a(alt_tick.o)
+                                        0x240 (size before relaxing)
+ .debug_str     0x0000000000001775       0x3b ../camera_config_bsp/\libhal_bsp.a(altera_nios2_gen2_irq.o)
+                                        0x14a (size before relaxing)
+ .debug_str     0x00000000000017b0       0x2c ../camera_config_bsp/\libhal_bsp.a(alt_icache_flush.o)
+                                        0x149 (size before relaxing)
+ .debug_str     0x00000000000017dc      0x48b ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)
+                                        0x58d (size before relaxing)
+ .debug_str     0x0000000000001c67      0x109 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+                                        0x1c6 (size before relaxing)
+ .debug_str     0x0000000000001d70       0x50 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+                                        0x19a (size before relaxing)
+ .debug_str     0x0000000000001dc0       0x52 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+                                        0x4be (size before relaxing)
+ .debug_str     0x0000000000001e12       0x55 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+                                        0x487 (size before relaxing)
+ .debug_str     0x0000000000001e67       0x2a ../camera_config_bsp/\libhal_bsp.a(alt_exit.o)
+                                        0x13f (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x1143
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x273 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1\libgcc.a(lib2-divmod.o)
+ .debug_loc     0x0000000000000273       0xc6 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-printf.o)
+ .debug_loc     0x0000000000000339       0x97 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-puts.o)
+ .debug_loc     0x00000000000003d0       0x1e c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-strlen.o)
+ .debug_loc     0x00000000000003ee      0x948 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_loc     0x0000000000000d36       0xbd c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_loc     0x0000000000000df3       0xa5 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-writer.o)
+ .debug_loc     0x0000000000000e98       0x2c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-atexit.o)
+ .debug_loc     0x0000000000000ec4       0x1e c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-exit.o)
+ .debug_loc     0x0000000000000ee2      0x15c c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__atexit.o)
+ .debug_loc     0x000000000000103e      0x105 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-__call_atexit.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_alt_sim_info
+                0x0000000000000000       0x60
+ *(.debug_alt_sim_info)
+ .debug_alt_sim_info
+                0x0000000000000000       0x30 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .debug_alt_sim_info
+                0x0000000000000030       0x30 ../camera_config_bsp/\libhal_bsp.a(alt_busy_sleep.o)
+                0x0000000000031170                __alt_data_end = 0x31170
+                0x0000000000031170                PROVIDE (__alt_stack_pointer, __alt_data_end)
+                0x0000000000025be0                PROVIDE (__alt_stack_limit, __alt_stack_base)
+                0x0000000000025be0                PROVIDE (__alt_heap_start, end)
+                0x0000000000031170                PROVIDE (__alt_heap_limit, 0x31170)
+OUTPUT(camera_config.elf elf32-littlenios2)
+
+.debug_ranges   0x0000000000000000      0x170
+ .debug_ranges  0x0000000000000000       0x20 ../camera_config_bsp//obj/HAL/src/crt0.o
+ .debug_ranges  0x0000000000000020       0xb8 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-vfprintf.o)
+ .debug_ranges  0x00000000000000d8       0x18 c:/altera/15.0/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/4.9.1/../../../../../H-x86_64-mingw32/nios2-elf/lib\libsmallc.a(lib_a-fvwrite_small_dev.o)
+ .debug_ranges  0x00000000000000f0       0x28 ../camera_config_bsp/\libhal_bsp.a(alt_irq_entry.o)
+ .debug_ranges  0x0000000000000118       0x10 ../camera_config_bsp/\libhal_bsp.a(alt_irq_handler.o)
+ .debug_ranges  0x0000000000000128       0x30 ../camera_config_bsp/\libhal_bsp.a(alt_exception_entry.o)
+ .debug_ranges  0x0000000000000158       0x18 ../camera_config_bsp/\libhal_bsp.a(alt_instruction_exception_entry.o)

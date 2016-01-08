@@ -1,0 +1,164 @@
+Flow report for DECA_Gsensor
+Sun May 31 22:52:55 2015
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Sun May 31 22:52:45 2015       ;
+; Quartus II 64-Bit Version          ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                      ; DECA_Gsensor                                ;
+; Top-level Entity Name              ; DECA_Gsensor                                ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C6GES                            ;
+; Timing Models                      ; Preliminary                                 ;
+; Total logic elements               ; 2,283 / 49,760 ( 5 % )                      ;
+;     Total combinational functions  ; 1,147 / 49,760 ( 2 % )                      ;
+;     Dedicated logic registers      ; 1,918 / 49,760 ( 4 % )                      ;
+; Total registers                    ; 1918                                        ;
+; Total pins                         ; 21 / 360 ( 6 % )                            ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 426,124 / 1,677,312 ( 25 % )                ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/31/2015 22:51:18 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; DECA_Gsensor        ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                                                                                                                                                                                                             ;
++-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; Assignment Name                     ; Value                                                                                                                                                                                                                                                                                                                                                                 ; Default Value ; Entity Name ; Section Id       ;
++-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+; COMPILER_SIGNATURE_ID               ; 1095496644626.143312707803112                                                                                                                                                                                                                                                                                                                                         ; --            ; --          ; --               ;
+; ENABLE_SIGNALTAP                    ; On                                                                                                                                                                                                                                                                                                                                                                    ; --            ; --          ; --               ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                                                                                                                                                                                                                                                                                                                                                    ; --            ; --          ; --               ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; --               ;
+; MISC_FILE                           ; dual_boot/synthesis/../dual_boot.cmp                                                                                                                                                                                                                                                                                                                                  ; --            ; --          ; --               ;
+; MISC_FILE                           ; dual_boot/synthesis/../../dual_boot.qsys                                                                                                                                                                                                                                                                                                                              ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS      ; Half Signal Swing                                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                                                                                                                                                                                                                                                                                                                            ; --            ; --          ; --               ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS     ; Half Vccio                                                                                                                                                                                                                                                                                                                                                            ; --            ; --          ; --               ;
+; PARTITION_COLOR                     ; 16764057                                                                                                                                                                                                                                                                                                                                                              ; --            ; --          ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING                                                                                                                                                                                                                                                                                                                                                 ; --            ; --          ; Top              ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                                                                                                                                                                                                                                                                                                                                                                ; --            ; --          ; Top              ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                                                                                                                                                                                                                                                                                                                                                   ; --            ; --          ; --               ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                                                                                                                                                                                                                                 ; --            ; --          ; --               ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                                                                                                                                                                                                                                                                                                                                                          ; --            ; --          ; --               ;
+; SLD_FILE                            ; dual_boot/synthesis/dual_boot.debuginfo                                                                                                                                                                                                                                                                                                                               ; --            ; --          ; --               ;
+; SLD_FILE                            ; db/stp1_auto_stripped.stp                                                                                                                                                                                                                                                                                                                                             ; --            ; --          ; --               ;
+; SLD_INFO                            ; QSYS_NAME dual_boot HAS_SOPCINFO 1 GENERATION_ID 1433125083                                                                                                                                                                                                                                                                                                           ; --            ; dual_boot   ; --               ;
+; SLD_NODE_CREATOR_ID                 ; 110                                                                                                                                                                                                                                                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                ; sld_signaltap                                                                                                                                                                                                                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                                                                                                                                                                                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_NODE_INFO=805334528                                                                                                                                                                                                                                                                                                                                               ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                                                                                                                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                                                                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                                                                                                                                                                                                            ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                                                                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STATE_BITS=11                                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                                                                                                                                                                                                ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                                                                                                                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                                                                                                                                                                                                                             ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                                                                                                                                                                                                   ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_IN_ENABLED=1                                                                                                                                                                                                                                                                                                                                              ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                                                                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                                                                                                                                                                                                          ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                                                                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SEGMENT_SIZE=4096                                                                                                                                                                                                                                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_SAMPLE_DEPTH=4096                                                                                                                                                                                                                                                                                                                                                 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_DATA_BITS=104                                                                                                                                                                                                                                                                                                                                                     ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_TRIGGER_BITS=104                                                                                                                                                                                                                                                                                                                                                  ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_STORAGE_QUALIFIER_BITS=104                                                                                                                                                                                                                                                                                                                                        ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --          ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT       ; SLD_INVERSION_MASK_LENGTH=338                                                                                                                                                                                                                                                                                                                                         ; --            ; --          ; auto_signaltap_0 ;
+; SOPCINFO_FILE                       ; dual_boot/synthesis/../../dual_boot.sopcinfo                                                                                                                                                                                                                                                                                                                          ; --            ; --          ; --               ;
+; SYNTHESIS_ONLY_QIP                  ; On                                                                                                                                                                                                                                                                                                                                                                    ; --            ; --          ; --               ;
+; USE_SIGNALTAP_FILE                  ; stp1.stp                                                                                                                                                                                                                                                                                                                                                              ; --            ; --          ; --               ;
++-------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:52     ; 1.0                     ; 780 MB              ; 00:01:10                           ;
+; Fitter                    ; 00:00:24     ; 1.8                     ; 1551 MB             ; 00:00:37                           ;
+; Assembler                 ; 00:00:04     ; 1.0                     ; 626 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:07     ; 1.6                     ; 784 MB              ; 00:00:11                           ;
+; Total                     ; 00:01:27     ; --                      ; --                  ; 00:02:03                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; LF4621           ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; LF4621           ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; LF4621           ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LF4621           ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off DECA_Gsensor -c DECA_Gsensor
+quartus_fit --read_settings_files=off --write_settings_files=off DECA_Gsensor -c DECA_Gsensor
+quartus_asm --read_settings_files=off --write_settings_files=off DECA_Gsensor -c DECA_Gsensor
+quartus_sta DECA_Gsensor -c DECA_Gsensor
+
+
+

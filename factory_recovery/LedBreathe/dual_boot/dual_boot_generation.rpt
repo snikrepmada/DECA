@@ -1,0 +1,73 @@
+Info: Starting: Create simulation model
+Info: qsys-generate E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot.qsys --simulation=VERILOG --output-directory=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\simulation --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading LedBreathe/dual_boot.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding dual_boot_0 [altera_dual_boot 15.0]
+Progress: Parameterizing module dual_boot_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: dual_boot.dual_boot_0: dual_boot_0.avalon must be connected to an Avalon-MM master
+Info: dual_boot: Generating dual_boot "dual_boot" for SIM_VERILOG
+Info: dual_boot_0: "dual_boot" instantiated altera_dual_boot "dual_boot_0"
+Info: rst_controller: "dual_boot" instantiated altera_reset_controller "rst_controller"
+Info: dual_boot: Done "dual_boot" with 3 modules, 10 files
+Info: ip-generate succeeded.
+Info: Finished: Create simulation model
+Info: Starting: Create Modelsim Project.
+Info: sim-script-gen --spd=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\dual_boot.spd --output-directory=E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\dual_boot.spd --output-directory=E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	1 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: Finished: Create Modelsim Project.
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot.qsys --block-symbol-file --output-directory=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading LedBreathe/dual_boot.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding dual_boot_0 [altera_dual_boot 15.0]
+Progress: Parameterizing module dual_boot_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: dual_boot.dual_boot_0: dual_boot_0.avalon must be connected to an Avalon-MM master
+Info: ip-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot.qsys --synthesis=VERILOG --output-directory=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading LedBreathe/dual_boot.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 15.0]
+Progress: Parameterizing module clk_0
+Progress: Adding dual_boot_0 [altera_dual_boot 15.0]
+Progress: Parameterizing module dual_boot_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: dual_boot.dual_boot_0: dual_boot_0.avalon must be connected to an Avalon-MM master
+Info: dual_boot: Generating dual_boot "dual_boot" for QUARTUS_SYNTH
+Info: dual_boot_0: generating top-level entity altera_dual_boot
+Info: dual_boot_0: "dual_boot" instantiated altera_dual_boot "dual_boot_0"
+Info: rst_controller: "dual_boot" instantiated altera_reset_controller "rst_controller"
+Info: dual_boot: Done "dual_boot" with 3 modules, 7 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

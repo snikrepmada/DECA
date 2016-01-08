@@ -1,0 +1,10 @@
+PLL_Name	deca_top:u0|deca_top_adc_pll:adc_pll|deca_top_adc_pll_altpll_5q22:sd1|pll7
+PLLJITTER	30
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	deca_top:u0|deca_top_nios_pll:nios_pll|deca_top_nios_pll_altpll_jb92:sd1|pll7
+PLLJITTER	41
+PLLSPEmax	84
+PLLSPEmin	-53
+

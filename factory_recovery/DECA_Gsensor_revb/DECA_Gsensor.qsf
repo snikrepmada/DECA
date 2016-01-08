@@ -1,0 +1,119 @@
+#============================================================
+# Build by Terasic System Builder
+#============================================================
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M50DAF484C7G
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+
+set_global_assignment -name TOP_LEVEL_ENTITY "DECA_Gsensor"
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 14.0
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:08:06 DECEMBER 08,2014"
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 484
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 7
+
+
+#============================================================
+# Toggle 0 MHz 
+#============================================================
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to MIPI_I2C_SCL
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to MIPI_I2C_SDA
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to MIPI_RESET_n
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to MIPI_WP
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_RESET_n
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_TX_EN
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_RX_ER
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_CRS
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_RX_DV
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_MDC
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_COL
+set_instance_assignment -name IO_MAXIMUM_TOGGLE_RATE "0 MHz" -to NET_MDIO
+
+
+#============================================================
+# CLOCK
+#============================================================
+set_location_assignment PIN_M9 -to ADC_CLK_10
+set_instance_assignment -name IO_STANDARD "2.5 V" -to ADC_CLK_10
+set_location_assignment PIN_M8 -to MAX10_CLK1_50
+set_instance_assignment -name IO_STANDARD "2.5 V" -to MAX10_CLK1_50
+set_location_assignment PIN_P11 -to MAX10_CLK2_50
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to MAX10_CLK2_50
+
+#============================================================
+# KEY
+#============================================================
+set_location_assignment PIN_H21 -to KEY[0]
+set_instance_assignment -name IO_STANDARD "1.5 V SCHMITT TRIGGER" -to KEY[0]
+set_location_assignment PIN_H22 -to KEY[1]
+set_instance_assignment -name IO_STANDARD "1.5 V SCHMITT TRIGGER" -to KEY[1]
+
+#============================================================
+# LED
+#============================================================
+set_location_assignment PIN_C7 -to LED[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[0]
+set_location_assignment PIN_C8 -to LED[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[1]
+set_location_assignment PIN_A6 -to LED[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[2]
+set_location_assignment PIN_B7 -to LED[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[3]
+set_location_assignment PIN_C4 -to LED[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[4]
+set_location_assignment PIN_A5 -to LED[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[5]
+set_location_assignment PIN_B4 -to LED[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[6]
+set_location_assignment PIN_C5 -to LED[7]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to LED[7]
+
+#============================================================
+# G-Sensor
+#============================================================
+set_location_assignment PIN_AB5 -to GSENSOR_PD
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GSENSOR_PD
+set_location_assignment PIN_AA5 -to GSENSOR_ST
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to GSENSOR_ST
+
+#============================================================
+# SW
+#============================================================
+set_location_assignment PIN_J21 -to SW[0]
+set_instance_assignment -name IO_STANDARD "1.5 V SCHMITT TRIGGER" -to SW[0]
+set_location_assignment PIN_J22 -to SW[1]
+set_instance_assignment -name IO_STANDARD "1.5 V SCHMITT TRIGGER" -to SW[1]
+
+#============================================================
+# End of pin assignments by Terasic System Builder
+#============================================================
+
+
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+
+set_global_assignment -name QIP_FILE dual_boot/synthesis/dual_boot.qip
+set_global_assignment -name VERILOG_FILE V/adc_init_out.v
+set_global_assignment -name QIP_FILE adc_qsys/synthesis/adc_qsys.qip
+set_global_assignment -name VERILOG_FILE V/led_driver.v
+set_global_assignment -name SDC_FILE DECA_Gsensor.SDC
+set_global_assignment -name CDF_FILE Chain1.cdf
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name ENABLE_CONFIGURATION_PINS OFF
+set_global_assignment -name EXTERNAL_FLASH_FALLBACK_ADDRESS 00000000
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name INTERNAL_FLASH_UPDATE_MODE "DUAL IMAGES"
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

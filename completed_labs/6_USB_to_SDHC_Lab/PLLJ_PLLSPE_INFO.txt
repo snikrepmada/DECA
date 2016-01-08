@@ -1,0 +1,5 @@
+PLL_Name	usb20sr_refdes:u0|usb20sr_refdes_altpll_0:altpll_0|usb20sr_refdes_altpll_0_altpll_qvf2:sd1|pll7
+PLLJITTER	32
+PLLSPEmax	84
+PLLSPEmin	-53
+

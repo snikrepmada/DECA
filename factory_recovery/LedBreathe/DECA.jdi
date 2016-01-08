@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="83fde605e7f8ea708b89"/>
+  </project>
+  <file_info>
+    <file device="10M50DAF484C6GES" path="DECA.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="dual_boot:dual_boot" name="dual_boot">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME dual_boot HAS_SOPCINFO 1 GENERATION_ID 1433124034"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

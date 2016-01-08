@@ -1,0 +1,59 @@
+[SPEED=100K] [VCC=3.3V]
+
+; Attempt to get attention
+r 37 x p [delay=10] r 37 x p [delay=10]
+
+w 37 00 03 00 00 00 00 00 00 00 0f 00 00 00 c8 c8 00 00 00 00 00 00 00 00 00 00 00 00 00 00 03 00 00 00 00 00 00 00 00 00 00 80 05 00 00 02 00 02 00 00 00 00 00 00 00 1e 1e 00 00 1e 1e 00 00 00 00 00 00 ff 00 00 00 00 00 00 00 00 00 00 01 00 01 40 00 37 01 00 00 0a 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6c 22 p
+w 37 86 02 p
+
+; Raw config data
+; 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x0F, 0x00, 0x00, 0x00, 0xC8, 0xC8, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x03, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x80, 0x05, 0x00, 0x00, 0x02, 0x00, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x1E, 0x1E, 0x00, 0x00, 0x1E, 0x1E, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0xFF, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01, 0x00, 0x01, 0x40, 0x00, 0x37, 0x01, 0x00, 0x00, 0x0A, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x6C, 0x22
+
+
+; #00       #02    #04       #06       
+; SENSOR_EN FSS_EN TOGGLE_EN LED_ON_EN 
+; 03 00     00 00  00 00     00 00     
+
+; #08          #09          #0A          #0B          
+; SENSITIVITY0 SENSITIVITY1 SENSITIVITY2 SENSITIVITY3 
+; 0F           00           00           00           
+
+; #0C             #0D             #0E      #0F       #10       #11       #12       #13       #14       #15       #16       #17       #18        #19        #1A        #1B        
+; BASE_THRESHOLD0 BASE_THRESHOLD1 RESERVED RESERVED1 RESERVED2 RESERVED3 RESERVED4 RESERVED5 RESERVED6 RESERVED7 RESERVED8 RESERVED9 RESERVED10 RESERVED11 RESERVED12 RESERVED13 
+; C8              C8              00       00        00        00        00        00        00        00        00        00        00         00         00         00         
+
+; #1C             
+; SENSOR_DEBOUNCE 
+; 03              
+
+; #1D        #1E        #1F        #20        #21       #22          
+; BUTTON_HYS RESERVED14 BUTTON_LBR BUTTON_NNT BUTTON_NT RESERVED15   
+; 00         00         00         00         00        00 00 00 00  
+
+; #26     #27      #28       #29        #2A            #2C            #2E              #2F              #30      #31        #32      #33      #34     #35               #36               #37        #39               #3A               #3B        
+; PROX_EN PROX_CFG PROX_CFG2 RESERVED16 PROX_TOUCH_TH0 PROX_TOUCH_TH1 PROX_RESOLUTION0 PROX_RESOLUTION1 PROX_HYS RESERVED17 PROX_LBR PROX_NNT PROX_NT PROX_POSITIVE_TH0 PROX_POSITIVE_TH1 RESERVED18 PROX_NEGATIVE_TH0 PROX_NEGATIVE_TH1 RESERVED19 
+; 00      80       05        00         00 02          00 02          00               00               00       00         00       00       00      1E                1E                00 00      1E                1E                00 00      
+
+; #3D         #3E        #3F        
+; LED_ON_TIME RESERVED20 RESERVED21 
+; 00          00         00         
+
+; #40     #41                #42        #43        #44        #45        #46        #47        #48        #49        #4C     #4D         #4E         #4F         #50         
+; GPO_CFG PWM_DUTYCYCLE_CFG0 RESERVED22 RESERVED23 RESERVED24 RESERVED25 RESERVED26 RESERVED27 RESERVED28 RESERVED29 SPO_CFG DEVICE_CFG0 DEVICE_CFG1 DEVICE_CFG2 DEVICE_CFG3 
+; 00      FF                 00         00         00         00         00         00         00         00 00 00   01      00          01          40          00          
+
+; #51      
+; I2C_ADDR 
+; 37       
+
+; #52          #53        
+; REFRESH_CTRL RESERVED30 
+; 01           00 00      
+
+; #55           #56                   #5D        #5E        #61        #62        #63        #64        #67        #68        #69        #6A                #70        #71        #72        #73        #74                            
+; STATE_TIMEOUT RESERVED31            RESERVED32 RESERVED33 RESERVED34 RESERVED35 RESERVED36 RESERVED37 RESERVED38 RESERVED39 RESERVED40 RESERVED41         RESERVED42 RESERVED43 RESERVED44 RESERVED45 RESERVED46                     
+; 0A            00 00 00 00 00 00 00  00         00 00 00   00         00         00         00 00 00   00         00         00         00 00 00 00 00 00  00         00         00         00         00 00 00 00 00 00 00 00 00 00  
+
+; #7E        
+; CONFIG_CRC 
+; 6C 22      

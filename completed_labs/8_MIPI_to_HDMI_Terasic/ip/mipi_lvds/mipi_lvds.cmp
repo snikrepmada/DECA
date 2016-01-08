@@ -1,0 +1,10 @@
+	component mipi_lvds is
+		port (
+			rx_inclock  : in  std_logic                    := 'X';             -- rx_inclock
+			rx_in       : in  std_logic_vector(3 downto 0) := (others => 'X'); -- rx_in
+			rx_out      : out std_logic_vector(7 downto 0);                    -- rx_out
+			rx_outclock : out std_logic;                                       -- rx_outclock
+			rx_locked   : out std_logic                                        -- rx_locked
+		);
+	end component mipi_lvds;
+

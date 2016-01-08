@@ -1,0 +1,1 @@
+This lab does not use DDR3 and will work on any revision of DECA

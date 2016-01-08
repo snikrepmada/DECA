@@ -1,0 +1,18 @@
+Fitter Status : Successful - Sun May 31 22:52:36 2015
+Quartus II 64-Bit Version : 15.0.0 Build 145 04/22/2015 SJ Full Version
+Revision Name : DECA_Gsensor
+Top-level Entity Name : DECA_Gsensor
+Family : MAX 10
+Device : 10M50DAF484C6GES
+Timing Models : Preliminary
+Total logic elements : 2,283 / 49,760 ( 5 % )
+    Total combinational functions : 1,147 / 49,760 ( 2 % )
+    Dedicated logic registers : 1,918 / 49,760 ( 4 % )
+Total registers : 1918
+Total pins : 21 / 360 ( 6 % )
+Total virtual pins : 0
+Total memory bits : 426,124 / 1,677,312 ( 25 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

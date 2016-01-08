@@ -1,0 +1,24 @@
+Revision 1.2.2 - 2015.10.01
+Added some missing files in the mipi_lvds folder of the mipi lab:
+-> updated ./workshop_labs/8_MIPI_to_HDMI_Terasic/ip/mipi_lvds
+Updated Gesture Sensor sdc file
+-> updated ./workshop_labs/4_Gesture_Sensor_Lab/gesture_lab.sdc
+-> updated ./completed_labs/4_Gesture_Sensor_Lab/gesture_lab.sdc
+
+Revision 1.2.1 - 2015.09.18
+Updated these two files as the previous was not working correctly:
+-> updated ./workshop_labs/8_MIPI_to_HDMI_Terasic/deca_mipi_hdmi_vip.dat
+-> updated ./completed_labs/8_MIPI_to_HDMI_Terasic/deca_mipi_hdmi_vip.dat
+
+Revision 1.2 - 2015.08.30
+Updated these two licenses that were previously set to expire 31-Aug-2015
+-> updated ./workshop_labs/6_USB_to_SDHC_Lab/deca_sls_usb_sdmmc.dat
+-> udpated ./completed_labs/6_USB_to_SDHC_Lab/deca_sls_usb_sdmmc.dat
+-> updated ./workshop_labs/8_MIPI_to_HDMI_Terasic/deca_mipi_hdmi_vip.dat
+-> updated ./completed_labs/8_MIPI_to_HDMI_Terasic/deca_mipi_hdmi_vip.dat
+
+Revision 1.1 - 2015.06.07
+Updated several points for clarity in the lab document
+
+Revision 1.0 - 2015.06.04
+This revision is the most recent including updates to the lab 8 ip sub-folder that were previously missing.

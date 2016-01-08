@@ -1,0 +1,12 @@
+	component test_sys_top_qsys is
+		port (
+			clk_50m_clk_in_clk                      : in    std_logic                    := 'X'; -- clk
+			led_pio_out8_external_connection_export : out   std_logic_vector(7 downto 0);        -- export
+			pb_pio_in1_external_connection_export   : in    std_logic                    := 'X'; -- export
+			reset_0_reset_n                         : in    std_logic                    := 'X'; -- reset_n
+			temp_lm71cimf_0_conduit_end_cs_n        : out   std_logic;                           -- cs_n
+			temp_lm71cimf_0_conduit_end_sc          : out   std_logic;                           -- sc
+			temp_lm71cimf_0_conduit_end_sio         : inout std_logic                    := 'X'  -- sio
+		);
+	end component test_sys_top_qsys;
+

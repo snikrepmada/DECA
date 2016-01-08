@@ -1,0 +1,145 @@
+IP Upgrade report for DECA
+Sun May 31 22:00:35 2015
+Quartus II 64-Bit Version 15.0.0 Build 145 04/22/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. IP Upgrade Summary
+  3. Successfully Upgraded IP Components
+  4. IP Upgrade Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------+
+; IP Upgrade Summary                                                         ;
++------------------------------+---------------------------------------------+
+; IP Components Upgrade Status ; Passed - Sun May 31 22:00:35 2015           ;
+; Quartus II 64-Bit Version    ; 15.0.0 Build 145 04/22/2015 SJ Full Version ;
+; Revision Name                ; DECA                                        ;
+; Top-level Entity Name        ; DECA                                        ;
+; Family                       ; MAX 10                                      ;
++------------------------------+---------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Successfully Upgraded IP Components                                                                                                             ;
++-------------+----------------+---------+-----------------------------------+----------------------+-----------------------------------+---------+
+; Entity Name ; Component Name ; Version ; Original Source File              ; Generation File Path ; New Source File                   ; Message ;
++-------------+----------------+---------+-----------------------------------+----------------------+-----------------------------------+---------+
+; dual_boot   ; Qsys           ; 14.1    ; dual_boot/synthesis/dual_boot.qip ; dual_boot.qsys       ; dual_boot/synthesis/dual_boot.qip ;         ;
++-------------+----------------+---------+-----------------------------------+----------------------+-----------------------------------+---------+
+
+
++---------------------+
+; IP Upgrade Messages ;
++---------------------+
+Info (11902): Backing up file "dual_boot.qsys" to "dual_boot_BAK.qsys"
+Info (11837): Started upgrading IP component Qsys with file "dual_boot.qsys"
+Info: 2015.05.31.21:59:56 Info: Starting to upgrade the IP cores in the Qsys system
+Info: 2015.05.31.21:59:56 Info: Finished upgrading the ip cores
+Info: 2015.05.31.22:00:21 Info: Saving generation log to E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot
+Info: 2015.05.31.22:00:21 Info: Starting: Create simulation model
+Info: 2015.05.31.22:00:21 Info: qsys-generate E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot.qsys --simulation=VERILOG --output-directory=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\simulation --family="MAX 10" --part=10M50DAF484C7G
+Info: 2015.05.31.22:00:21 Info: Loading LedBreathe
+Info: 2015.05.31.22:00:22 Info: Reading input file
+Info: 2015.05.31.22:00:22 Info: Adding clk_0 [clock_source 15.0]
+Info: 2015.05.31.22:00:22 Info: Parameterizing module clk_0
+Info: 2015.05.31.22:00:22 Info: Adding dual_boot_0 [altera_dual_boot 15.0]
+Info: 2015.05.31.22:00:22 Info: Parameterizing module dual_boot_0
+Info: 2015.05.31.22:00:22 Info: Building connections
+Info: 2015.05.31.22:00:22 Info: Parameterizing connections
+Info: 2015.05.31.22:00:22 Info: Validating
+Info: 2015.05.31.22:00:22 Info: Done reading input file
+Warning: 2015.05.31.22:00:23 Warning: dual_boot.dual_boot_0: dual_boot_0.avalon must be connected to an Avalon-MM master
+Info: 2015.05.31.22:00:23 Info: dual_boot: Generating dual_boot "dual_boot" for SIM_VERILOG
+Info: 2015.05.31.22:00:25 Info: dual_boot_0: "dual_boot" instantiated altera_dual_boot "dual_boot_0"
+Info: 2015.05.31.22:00:25 Info: rst_controller: "dual_boot" instantiated altera_reset_controller "rst_controller"
+Info: 2015.05.31.22:00:25 Info: dual_boot: Done "dual_boot" with 3 modules, 10 files
+Info: 2015.05.31.22:00:25 Info: ip-generate succeeded.
+Info: 2015.05.31.22:00:25 Info: Finished: Create simulation model
+Info: 2015.05.31.22:00:25 Info: Starting: Create Modelsim Project.
+Info: 2015.05.31.22:00:25 Info: sim-script-gen --spd=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\dual_boot.spd --output-directory=E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation
+Info: 2015.05.31.22:00:25 Info: Doing: ip-make-simscript --spd=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\dual_boot.spd --output-directory=E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation
+Info: 2015.05.31.22:00:28 Info: Generating the following file(s) for MODELSIM simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation
+Info: 2015.05.31.22:00:28 Info:     mentor
+Info: 2015.05.31.22:00:28 Info: Generating the following file(s) for VCS simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation
+Info: 2015.05.31.22:00:28 Info:     synopsys/vcs
+Info: 2015.05.31.22:00:28 Info: Generating the following file(s) for VCSMX simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation
+Info: 2015.05.31.22:00:28 Info:     synopsys/vcsmx
+Info: 2015.05.31.22:00:28 Info:     synopsys/vcsmx
+Info: 2015.05.31.22:00:28 Info: Generating the following file(s) for NCSIM simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation/ directory:
+2015.05.31.22:00:28 Info:     cadence
+Info: 2015.05.31.22:00:28 Info:     cadence
+Info: 2015.05.31.22:00:28 Info:     cadence
+Info: 2015.05.31.22:00:28 Info:     1 .cds.lib files in cadence/cds_libs
+Info: 2015.05.31.22:00:28 Info: Generating the following file(s) for RIVIERA simulator in E:/OneDrive/Zippleback/DECA/Workshop_Logistics/deca_lab_files/factory_recovery/LedBreathe/dual_boot/simulation
+Info: 2015.05.31.22:00:28 Info:     aldec
+Info: 2015.05.31.22:00:28 Info: Finished: Create Modelsim Project.
+Info: 2015.05.31.22:00:28 Info: Starting: Create block symbol file (.bsf)
+Info: 2015.05.31.22:00:28 Info: qsys-generate E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot.qsys --block-symbol-file --output-directory=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot --family="MAX 10" --part=10M50DAF484C7G
+Info: 2015.05.31.22:00:28 Info: Loading LedBreathe
+Info: 2015.05.31.22:00:29 Info: Reading input file
+Info: 2015.05.31.22:00:29 Info: Adding clk_0 [clock_source 15.0]
+Info: 2015.05.31.22:00:29 Info: Parameterizing module clk_0
+Info: 2015.05.31.22:00:29 Info: Adding dual_boot_0 [altera_dual_boot 15.0]
+Info: 2015.05.31.22:00:29 Info: Parameterizing module dual_boot_0
+Info: 2015.05.31.22:00:29 Info: Building connections
+Info: 2015.05.31.22:00:29 Info: Parameterizing connections
+Info: 2015.05.31.22:00:29 Info: Validating
+Info: 2015.05.31.22:00:29 Info: Done reading input file
+Warning: 2015.05.31.22:00:30 Warning: dual_boot.dual_boot_0: dual_boot_0.avalon must be connected to an Avalon-MM master
+Info: 2015.05.31.22:00:32 Info: ip-generate succeeded.
+Info: 2015.05.31.22:00:32 Info: Finished: Create block symbol file (.bsf)
+Info: 2015.05.31.22:00:32 Info:
+Info: 2015.05.31.22:00:32 Info: Starting: Create HDL design files for synthesis
+Info: 2015.05.31.22:00:32 Info: qsys-generate E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot.qsys --synthesis=VERILOG --output-directory=E:\OneDrive\Zippleback\DECA\Workshop_Logistics\deca_lab_files\factory_recovery\LedBreathe\dual_boot\synthesis --family="MAX 10" --part=10M50DAF484C7G
+Info: 2015.05.31.22:00:32 Info: Loading LedBreathe
+Info: 2015.05.31.22:00:33 Info: Reading input file
+Info: 2015.05.31.22:00:33 Info: Adding clk_0 [clock_source 15.0]
+Info: 2015.05.31.22:00:33 Info: Parameterizing module clk_0
+Info: 2015.05.31.22:00:33 Info: Adding dual_boot_0 [altera_dual_boot 15.0]
+Info: 2015.05.31.22:00:33 Info: Parameterizing module dual_boot_0
+Info: 2015.05.31.22:00:33 Info: Building connections
+Info: 2015.05.31.22:00:33 Info: Parameterizing connections
+Info: 2015.05.31.22:00:33 Info: Validating
+Info: 2015.05.31.22:00:33 Info: Done reading input file
+Warning: 2015.05.31.22:00:34 Warning: dual_boot.dual_boot_0: dual_boot_0.avalon must be connected to an Avalon-MM master
+Info: 2015.05.31.22:00:34 Info: dual_boot: Generating dual_boot "dual_boot" for QUARTUS_SYNTH
+Info: 2015.05.31.22:00:35 Info: dual_boot_0: generating top-level entity altera_dual_boot
+Info: 2015.05.31.22:00:35 Info: dual_boot_0: "dual_boot" instantiated altera_dual_boot "dual_boot_0"
+Info: 2015.05.31.22:00:35 Info: rst_controller: "dual_boot" instantiated altera_reset_controller "rst_controller"
+Info: 2015.05.31.22:00:35 Info: dual_boot: Done "dual_boot" with 3 modules, 7 files
+Info: 2015.05.31.22:00:35 Info: ip-generate succeeded.
+Info: 2015.05.31.22:00:35 Info: Finished: Create HDL design files for synthesis
+Info (11131): Completed upgrading IP component Qsys with file "dual_boot.qsys"
+Info (23030): Evaluation of Tcl script c:/altera/15.0/quartus/common/tcl/internal/ip_regen/ip_regen.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 354 megabytes
+    Info: Processing ended: Sun May 31 22:00:35 2015
+    Info: Elapsed time: 00:01:13
+    Info: Total CPU time (on all processors): 00:01:55
+
+

@@ -1,0 +1,93 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 272 184)
+	(text "mipi_lvds" (rect 109 -1 146 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 168 20 180)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "rx_inclock" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "rx_inclock" (rect 4 61 64 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 80 72)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "rx_in[3..0]" (rect 0 0 40 12)(font "Arial" (font_size 8)))
+		(text "rx_in[3..0]" (rect 4 101 70 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 80 112)(line_width 3))
+	)
+	(port
+		(pt 272 72)
+		(output)
+		(text "rx_out[7..0]" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "rx_out[7..0]" (rect 214 61 286 72)(font "Arial" (font_size 8)))
+		(line (pt 272 72)(pt 192 72)(line_width 3))
+	)
+	(port
+		(pt 272 112)
+		(output)
+		(text "rx_outclock" (rect 0 0 46 12)(font "Arial" (font_size 8)))
+		(text "rx_outclock" (rect 213 101 279 112)(font "Arial" (font_size 8)))
+		(line (pt 272 112)(pt 192 112)(line_width 1))
+	)
+	(port
+		(pt 272 152)
+		(output)
+		(text "rx_locked" (rect 0 0 38 12)(font "Arial" (font_size 8)))
+		(text "rx_locked" (rect 222 141 276 152)(font "Arial" (font_size 8)))
+		(line (pt 272 152)(pt 192 152)(line_width 1))
+	)
+	(drawing
+		(text "rx_inclock" (rect 23 43 106 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rx_inclock" (rect 85 67 230 144)(font "Arial" (color 0 0 0)))
+		(text "rx_in" (rect 52 83 134 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rx_in" (rect 85 107 200 224)(font "Arial" (color 0 0 0)))
+		(text "rx_out" (rect 193 43 422 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rx_out" (rect 161 67 358 144)(font "Arial" (color 0 0 0)))
+		(text "rx_outclock" (rect 193 83 452 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rx_outclock" (rect 139 107 344 224)(font "Arial" (color 0 0 0)))
+		(text "rx_locked" (rect 193 123 440 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "rx_locked" (rect 147 147 348 304)(font "Arial" (color 0 0 0)))
+		(text " altera_soft_lvds " (rect 198 168 504 346)(font "Arial" ))
+		(line (pt 80 32)(pt 192 32)(line_width 1))
+		(line (pt 192 32)(pt 192 168)(line_width 1))
+		(line (pt 80 168)(pt 192 168)(line_width 1))
+		(line (pt 80 32)(pt 80 168)(line_width 1))
+		(line (pt 81 52)(pt 81 76)(line_width 1))
+		(line (pt 82 52)(pt 82 76)(line_width 1))
+		(line (pt 81 92)(pt 81 116)(line_width 1))
+		(line (pt 82 92)(pt 82 116)(line_width 1))
+		(line (pt 191 52)(pt 191 76)(line_width 1))
+		(line (pt 190 52)(pt 190 76)(line_width 1))
+		(line (pt 191 92)(pt 191 116)(line_width 1))
+		(line (pt 190 92)(pt 190 116)(line_width 1))
+		(line (pt 191 132)(pt 191 156)(line_width 1))
+		(line (pt 190 132)(pt 190 156)(line_width 1))
+		(line (pt 0 0)(pt 272 0)(line_width 1))
+		(line (pt 272 0)(pt 272 184)(line_width 1))
+		(line (pt 0 184)(pt 272 184)(line_width 1))
+		(line (pt 0 0)(pt 0 184)(line_width 1))
+	)
+)

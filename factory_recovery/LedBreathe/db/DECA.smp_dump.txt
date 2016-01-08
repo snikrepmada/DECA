@@ -1,0 +1,23 @@
+
+State Machine - |DECA|dual_boot:dual_boot|altera_dual_boot:dual_boot_0|alt_dual_boot_avmm:alt_dual_boot_avmm_comp|alt_dual_boot:alt_dual_boot|current_state
+Name current_state.STATE_CLR_BUSY current_state.STATE_CLR_END current_state.STATE_CLR_WR_INREG current_state.STATE_CLR_RD_INREG current_state.STATE_CLR_RD_APP2 current_state.STATE_CLR_RD_APP1 current_state.STATE_CLR_RD_WD current_state.STATE_CLR current_state.STATE_WRITE_UPDATE current_state.STATE_WRITE current_state.STATE_WRITE_SETUP current_state.STATE_READ_UPDATE current_state.STATE_READ_EXTRA current_state.STATE_READ current_state.STATE_READ_CAPTURE current_state.STATE_READ_DUMMY current_state.STATE_READ_WRITE current_state.STATE_READ_SETUP current_state.STATE_SAME current_state.STATE_INIT 
+current_state.STATE_INIT 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+current_state.STATE_SAME 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+current_state.STATE_READ_SETUP 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+current_state.STATE_READ_WRITE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+current_state.STATE_READ_DUMMY 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+current_state.STATE_READ_CAPTURE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+current_state.STATE_READ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+current_state.STATE_READ_EXTRA 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+current_state.STATE_READ_UPDATE 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+current_state.STATE_WRITE_SETUP 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+current_state.STATE_WRITE 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_WRITE_UPDATE 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_RD_WD 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_RD_APP1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_RD_APP2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_RD_INREG 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_WR_INREG 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_END 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+current_state.STATE_CLR_BUSY 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

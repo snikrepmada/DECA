@@ -1,0 +1,109 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 0 0 544 296)
+	(text "test_sys_top_qsys" (rect 216 -1 295 11)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 280 20 292)(font "Arial" ))
+	(port
+		(pt 0 72)
+		(input)
+		(text "clk_50m_clk_in_clk" (rect 0 0 79 12)(font "Arial" (font_size 8)))
+		(text "clk_50m_clk_in_clk" (rect 4 61 112 72)(font "Arial" (font_size 8)))
+		(line (pt 0 72)(pt 240 72)(line_width 1))
+	)
+	(port
+		(pt 0 152)
+		(input)
+		(text "pb_pio_in1_external_connection_export" (rect 0 0 155 12)(font "Arial" (font_size 8)))
+		(text "pb_pio_in1_external_connection_export" (rect 4 141 226 152)(font "Arial" (font_size 8)))
+		(line (pt 0 152)(pt 240 152)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "reset_0_reset_n" (rect 0 0 67 12)(font "Arial" (font_size 8)))
+		(text "reset_0_reset_n" (rect 4 181 94 192)(font "Arial" (font_size 8)))
+		(line (pt 0 192)(pt 240 192)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(output)
+		(text "led_pio_out8_external_connection_export[7..0]" (rect 0 0 184 12)(font "Arial" (font_size 8)))
+		(text "led_pio_out8_external_connection_export[7..0]" (rect 4 101 274 112)(font "Arial" (font_size 8)))
+		(line (pt 0 112)(pt 240 112)(line_width 3))
+	)
+	(port
+		(pt 0 232)
+		(output)
+		(text "temp_lm71cimf_0_conduit_end_cs_n" (rect 0 0 151 12)(font "Arial" (font_size 8)))
+		(text "temp_lm71cimf_0_conduit_end_cs_n" (rect 4 221 196 232)(font "Arial" (font_size 8)))
+		(line (pt 0 232)(pt 240 232)(line_width 1))
+	)
+	(port
+		(pt 0 248)
+		(output)
+		(text "temp_lm71cimf_0_conduit_end_sc" (rect 0 0 140 12)(font "Arial" (font_size 8)))
+		(text "temp_lm71cimf_0_conduit_end_sc" (rect 4 237 184 248)(font "Arial" (font_size 8)))
+		(line (pt 0 248)(pt 240 248)(line_width 1))
+	)
+	(port
+		(pt 0 264)
+		(bidir)
+		(text "temp_lm71cimf_0_conduit_end_sio" (rect 0 0 141 12)(font "Arial" (font_size 8)))
+		(text "temp_lm71cimf_0_conduit_end_sio" (rect 4 253 190 264)(font "Arial" (font_size 8)))
+		(line (pt 0 264)(pt 240 264)(line_width 1))
+	)
+	(drawing
+		(text "clk_50m_clk_in" (rect 150 43 384 99)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "clk" (rect 245 67 508 144)(font "Arial" (color 0 0 0)))
+		(text "led_pio_out8_external_connection" (rect 43 83 278 179)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 245 107 526 224)(font "Arial" (color 0 0 0)))
+		(text "pb_pio_in1_external_connection" (rect 56 123 292 259)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "export" (rect 245 147 526 304)(font "Arial" (color 0 0 0)))
+		(text "reset_0" (rect 196 163 434 339)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "reset_n" (rect 245 187 532 384)(font "Arial" (color 0 0 0)))
+		(text "temp_lm71cimf_0_conduit_end" (rect 60 203 282 419)(font "Arial" (color 128 0 0)(font_size 9)))
+		(text "cs_n" (rect 245 227 514 464)(font "Arial" (color 0 0 0)))
+		(text "sc" (rect 245 243 502 496)(font "Arial" (color 0 0 0)))
+		(text "sio" (rect 245 259 508 528)(font "Arial" (color 0 0 0)))
+		(text " system " (rect 509 280 1066 570)(font "Arial" ))
+		(line (pt 240 32)(pt 304 32)(line_width 1))
+		(line (pt 304 32)(pt 304 280)(line_width 1))
+		(line (pt 240 280)(pt 304 280)(line_width 1))
+		(line (pt 240 32)(pt 240 280)(line_width 1))
+		(line (pt 241 52)(pt 241 76)(line_width 1))
+		(line (pt 242 52)(pt 242 76)(line_width 1))
+		(line (pt 241 92)(pt 241 116)(line_width 1))
+		(line (pt 242 92)(pt 242 116)(line_width 1))
+		(line (pt 241 132)(pt 241 156)(line_width 1))
+		(line (pt 242 132)(pt 242 156)(line_width 1))
+		(line (pt 241 172)(pt 241 196)(line_width 1))
+		(line (pt 242 172)(pt 242 196)(line_width 1))
+		(line (pt 241 212)(pt 241 268)(line_width 1))
+		(line (pt 242 212)(pt 242 268)(line_width 1))
+		(line (pt 0 0)(pt 544 0)(line_width 1))
+		(line (pt 544 0)(pt 544 296)(line_width 1))
+		(line (pt 0 296)(pt 544 296)(line_width 1))
+		(line (pt 0 0)(pt 0 296)(line_width 1))
+	)
+)

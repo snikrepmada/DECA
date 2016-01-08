@@ -1,0 +1,258 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 1991-2008 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+*/
+(header "symbol" (version "1.1"))
+(symbol
+	(rect 16 16 240 240)
+	(text "sls_avalon_usb20sr" (rect 5 0 102 12)(font "Arial" ))
+	(text "inst" (rect 8 208 25 220)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk" (rect 0 0 14 12)(font "Arial" ))
+		(text "clk" (rect 21 27 35 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32)(line_width 1))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "reset_n" (rect 0 0 36 12)(font "Arial" ))
+		(text "reset_n" (rect 21 43 57 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48)(line_width 1))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "address[18..0]" (rect 0 0 70 12)(font "Arial" ))
+		(text "address[18..0]" (rect 21 59 91 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "writedata[31..0]" (rect 0 0 75 12)(font "Arial" ))
+		(text "writedata[31..0]" (rect 21 75 96 87)(font "Arial" ))
+		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 96)
+		(input)
+		(text "chipselect" (rect 0 0 49 12)(font "Arial" ))
+		(text "chipselect" (rect 21 91 70 103)(font "Arial" ))
+		(line (pt 0 96)(pt 16 96)(line_width 1))
+	)
+	(port
+		(pt 0 112)
+		(input)
+		(text "write_n" (rect 0 0 34 12)(font "Arial" ))
+		(text "write_n" (rect 21 107 55 119)(font "Arial" ))
+		(line (pt 0 112)(pt 16 112)(line_width 1))
+	)
+	(port
+		(pt 0 128)
+		(input)
+		(text "read_n" (rect 0 0 33 12)(font "Arial" ))
+		(text "read_n" (rect 21 123 54 135)(font "Arial" ))
+		(line (pt 0 128)(pt 16 128)(line_width 1))
+	)
+	(port
+		(pt 0 144)
+		(input)
+		(text "byteenable_n[3..0]" (rect 0 0 92 12)(font "Arial" ))
+		(text "byteenable_n[3..0]" (rect 21 139 113 151)(font "Arial" ))
+		(line (pt 0 144)(pt 16 144)(line_width 3))
+	)
+	(port
+		(pt 0 160)
+		(input)
+		(text "phy_clk" (rect 0 0 38 12)(font "Arial" ))
+		(text "phy_clk" (rect 21 155 59 167)(font "Arial" ))
+		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "Dir" (rect 0 0 14 12)(font "Arial" ))
+		(text "Dir" (rect 21 171 35 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
+	)
+	(port
+		(pt 0 192)
+		(input)
+		(text "Nxt" (rect 0 0 17 12)(font "Arial" ))
+		(text "Nxt" (rect 21 187 38 199)(font "Arial" ))
+		(line (pt 0 192)(pt 16 192)(line_width 1))
+	)
+	(port
+		(pt 224 32)
+		(output)
+		(text "readdata[31..0]" (rect 0 0 74 12)(font "Arial" ))
+		(text "readdata[31..0]" (rect 129 27 203 39)(font "Arial" ))
+		(line (pt 224 32)(pt 208 32)(line_width 3))
+	)
+	(port
+		(pt 224 48)
+		(output)
+		(text "waitrequest" (rect 0 0 55 12)(font "Arial" ))
+		(text "waitrequest" (rect 148 43 203 55)(font "Arial" ))
+		(line (pt 224 48)(pt 208 48)(line_width 1))
+	)
+	(port
+		(pt 224 64)
+		(output)
+		(text "irq" (rect 0 0 11 12)(font "Arial" ))
+		(text "irq" (rect 192 59 203 71)(font "Arial" ))
+		(line (pt 224 64)(pt 208 64)(line_width 1))
+	)
+	(port
+		(pt 224 80)
+		(output)
+		(text "readdatavalid" (rect 0 0 66 12)(font "Arial" ))
+		(text "readdatavalid" (rect 137 75 203 87)(font "Arial" ))
+		(line (pt 224 80)(pt 208 80)(line_width 1))
+	)
+	(port
+		(pt 224 112)
+		(output)
+		(text "Stp" (rect 0 0 16 12)(font "Arial" ))
+		(text "Stp" (rect 187 107 203 119)(font "Arial" ))
+		(line (pt 224 112)(pt 208 112)(line_width 1))
+	)
+	(port
+		(pt 224 128)
+		(output)
+		(text "phy_cs_n" (rect 0 0 48 12)(font "Arial" ))
+		(text "phy_cs_n" (rect 155 123 203 135)(font "Arial" ))
+		(line (pt 224 128)(pt 208 128)(line_width 1))
+	)
+	(port
+		(pt 224 144)
+		(output)
+		(text "phy_reset_n" (rect 0 0 61 12)(font "Arial" ))
+		(text "phy_reset_n" (rect 142 139 203 151)(font "Arial" ))
+		(line (pt 224 144)(pt 208 144)(line_width 1))
+	)
+	(port
+		(pt 224 96)
+		(bidir)
+		(text "Data[7..0]" (rect 0 0 49 12)(font "Arial" ))
+		(text "Data[7..0]" (rect 154 91 203 103)(font "Arial" ))
+		(line (pt 224 96)(pt 208 96)(line_width 3))
+	)
+	(parameter
+		"IN_ADR_WIDTH"
+		"9"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"IN_DEPTH"
+		"512"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"OUT_ADR_WIDTH"
+		"9"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"OUT_DEPTH"
+		"512"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Simulation"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Interface_sel"
+		"0"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Enum_data_file"
+		"Enum_ram.hex"
+		""
+		(type "PARAMETER_STRING")	)
+	(parameter
+		"SSRAM_HADR"
+		"14"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"Tp"
+		"1"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"IDEAL"
+		"0000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"MANFACT_STR_START_ADD"
+		"0001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"LD_MANFACT_STR_SIZE"
+		"0010"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"PRODUCT_STR_START_ADD"
+		"0011"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"LD_PRODUCT_STR_SIZE"
+		"0100"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"SERIAL_STR_START_ADD"
+		"0101"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"LD_SERIAL_STR_SIZE"
+		"0110"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"END_PROCESS"
+		"0111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"PRELD_PRODUCT_STR_ADD"
+		"1000"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(parameter
+		"PRELD_SERIAL_STR_ADD"
+		"1001"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 208 208)(line_width 1))
+	)
+	(annotation_block (parameter)(rect 240 -64 340 16))
+)

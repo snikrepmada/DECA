@@ -1,0 +1,82 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\DECA\workshop_labs\2_Qsys_Intro_Lab\test_sys_top_qsys.qsys --synthesis=VERILOG --output-directory=C:\DECA\workshop_labs\2_Qsys_Intro_Lab\test_sys_top_qsys\synthesis --family="MAX 10" --part=10M50DAF484C6GES
+Progress: Loading 2_Qsys_Intro_Lab/test_sys_top_qsys.qsys
+Progress: Reading input file
+Progress: Adding TEMP_LM71CIMF_0 [TEMP_LM71CIMF 1.0]
+Progress: Parameterizing module TEMP_LM71CIMF_0
+Progress: Adding clk_50m [clock_source 15.0]
+Progress: Parameterizing module clk_50m
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 15.0]
+Progress: Parameterizing module jtag_uart
+Progress: Adding led_pio_out8 [altera_avalon_pio 15.0]
+Progress: Parameterizing module led_pio_out8
+Progress: Adding master_0 [altera_jtag_avalon_master 15.0]
+Progress: Parameterizing module master_0
+Progress: Adding ocram_1k [altera_avalon_onchip_memory2 15.0]
+Progress: Parameterizing module ocram_1k
+Progress: Adding pb_pio_in1 [altera_avalon_pio 15.0]
+Progress: Parameterizing module pb_pio_in1
+Progress: Adding sysid [altera_avalon_sysid_qsys 15.0]
+Progress: Parameterizing module sysid
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: test_sys_top_qsys.sysid: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: test_sys_top_qsys.sysid: Time stamp will be automatically updated when this component is generated.
+Warning: test_sys_top_qsys.jtag_uart: Interrupt sender jtag_uart.irq is not connected to an interrupt receiver
+Info: test_sys_top_qsys: Generating test_sys_top_qsys "test_sys_top_qsys" for QUARTUS_SYNTH
+Info: TEMP_LM71CIMF_0: "test_sys_top_qsys" instantiated TEMP_LM71CIMF "TEMP_LM71CIMF_0"
+Info: jtag_uart: Starting RTL generation for module 'test_sys_top_qsys_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/altera/15.0.0.139/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0.0.139/quartus/bin64/perl/lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/europa -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=test_sys_top_qsys_jtag_uart --dir=C:/temp/alt6555_2498713947349206424.dir/0002_jtag_uart_gen/ --quartus_dir=C:/altera/15.0.0.139/quartus --verilog --config=C:/temp/alt6555_2498713947349206424.dir/0002_jtag_uart_gen//test_sys_top_qsys_jtag_uart_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart: Done RTL generation for module 'test_sys_top_qsys_jtag_uart'
+Info: jtag_uart: "test_sys_top_qsys" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: led_pio_out8: Starting RTL generation for module 'test_sys_top_qsys_led_pio_out8'
+Info: led_pio_out8:   Generation command is [exec C:/altera/15.0.0.139/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0.0.139/quartus/bin64/perl/lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/europa -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=test_sys_top_qsys_led_pio_out8 --dir=C:/temp/alt6555_2498713947349206424.dir/0003_led_pio_out8_gen/ --quartus_dir=C:/altera/15.0.0.139/quartus --verilog --config=C:/temp/alt6555_2498713947349206424.dir/0003_led_pio_out8_gen//test_sys_top_qsys_led_pio_out8_component_configuration.pl  --do_build_sim=0  ]
+Info: led_pio_out8: Done RTL generation for module 'test_sys_top_qsys_led_pio_out8'
+Info: led_pio_out8: "test_sys_top_qsys" instantiated altera_avalon_pio "led_pio_out8"
+Info: master_0: "test_sys_top_qsys" instantiated altera_jtag_avalon_master "master_0"
+Info: ocram_1k: Starting RTL generation for module 'test_sys_top_qsys_ocram_1k'
+Info: ocram_1k:   Generation command is [exec C:/altera/15.0.0.139/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0.0.139/quartus/bin64/perl/lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/europa -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=test_sys_top_qsys_ocram_1k --dir=C:/temp/alt6555_2498713947349206424.dir/0004_ocram_1k_gen/ --quartus_dir=C:/altera/15.0.0.139/quartus --verilog --config=C:/temp/alt6555_2498713947349206424.dir/0004_ocram_1k_gen//test_sys_top_qsys_ocram_1k_component_configuration.pl  --do_build_sim=0  ]
+Info: ocram_1k: Done RTL generation for module 'test_sys_top_qsys_ocram_1k'
+Info: ocram_1k: "test_sys_top_qsys" instantiated altera_avalon_onchip_memory2 "ocram_1k"
+Info: pb_pio_in1: Starting RTL generation for module 'test_sys_top_qsys_pb_pio_in1'
+Info: pb_pio_in1:   Generation command is [exec C:/altera/15.0.0.139/quartus/bin64/perl/bin/perl.exe -I C:/altera/15.0.0.139/quartus/bin64/perl/lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/europa -I C:/altera/15.0.0.139/quartus/sopc_builder/bin/perl_lib -I C:/altera/15.0.0.139/quartus/sopc_builder/bin -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/common -I C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio -- C:/altera/15.0.0.139/quartus/../ip/altera/sopc_builder_ip/altera_avalon_pio/generate_rtl.pl --name=test_sys_top_qsys_pb_pio_in1 --dir=C:/temp/alt6555_2498713947349206424.dir/0005_pb_pio_in1_gen/ --quartus_dir=C:/altera/15.0.0.139/quartus --verilog --config=C:/temp/alt6555_2498713947349206424.dir/0005_pb_pio_in1_gen//test_sys_top_qsys_pb_pio_in1_component_configuration.pl  --do_build_sim=0  ]
+Info: pb_pio_in1: Done RTL generation for module 'test_sys_top_qsys_pb_pio_in1'
+Info: pb_pio_in1: "test_sys_top_qsys" instantiated altera_avalon_pio "pb_pio_in1"
+Info: sysid: "test_sys_top_qsys" instantiated altera_avalon_sysid_qsys "sysid"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "test_sys_top_qsys" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: rst_controller: "test_sys_top_qsys" instantiated altera_reset_controller "rst_controller"
+Info: jtag_phy_embedded_in_jtag_master: "master_0" instantiated altera_jtag_dc_streaming "jtag_phy_embedded_in_jtag_master"
+Info: timing_adt: "master_0" instantiated timing_adapter "timing_adt"
+Info: fifo: "master_0" instantiated altera_avalon_sc_fifo "fifo"
+Info: b2p: "master_0" instantiated altera_avalon_st_bytes_to_packets "b2p"
+Info: p2b: "master_0" instantiated altera_avalon_st_packets_to_bytes "p2b"
+Info: transacto: "master_0" instantiated altera_avalon_packets_to_master "transacto"
+Info: b2p_adapter: "master_0" instantiated channel_adapter "b2p_adapter"
+Info: p2b_adapter: "master_0" instantiated channel_adapter "p2b_adapter"
+Info: master_0_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "master_0_master_translator"
+Info: jtag_uart_avalon_jtag_slave_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "jtag_uart_avalon_jtag_slave_translator"
+Info: master_0_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "master_0_master_agent"
+Info: jtag_uart_avalon_jtag_slave_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "jtag_uart_avalon_jtag_slave_agent"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: master_0_master_limiter: "mm_interconnect_0" instantiated altera_merlin_traffic_limiter "master_0_master_limiter"
+Info: Reusing file C:/DECA/workshop_labs/2_Qsys_Intro_Lab/test_sys_top_qsys/synthesis/submodules/altera_avalon_sc_fifo.v
+Info: Reusing file C:/DECA/workshop_labs/2_Qsys_Intro_Lab/test_sys_top_qsys/synthesis/submodules/altera_avalon_st_pipeline_base.v
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file C:/DECA/workshop_labs/2_Qsys_Intro_Lab/test_sys_top_qsys/synthesis/submodules/altera_merlin_arbitrator.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: test_sys_top_qsys: Done "test_sys_top_qsys" with 31 modules, 46 files
+Info: ip-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

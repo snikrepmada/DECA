@@ -1,0 +1,10 @@
+PLL_Name	ADC_PLL:ADC_PLL_inst|altpll:altpll_component|ADC_PLL_altpll:auto_generated|pll1
+PLLJITTER	44
+PLLSPEmax	84
+PLLSPEmin	-53
+
+PLL_Name	RF0002_BASE:u0|RF0002_BASE_mem_if_ddr3_emif_0:mem_if_ddr3_emif_0|RF0002_BASE_mem_if_ddr3_emif_0_pll0:pll0|altpll:upll_memphy|altpll_t0j3:auto_generated|pll1
+PLLJITTER	32
+PLLSPEmax	84
+PLLSPEmin	-53
+
